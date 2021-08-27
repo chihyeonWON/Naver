@@ -1,0 +1,16 @@
+a {
+  position: relative;
+  left: 60%;
+}
+.naverstart {
+  font-size: 12px;
+}
+.wrap_search a {
+  position: relative;
+  color: yellowgreen;
+  font-size: 40px;
+  font-weight: bold;
+}
+.wrap_search input {
+  position: absolute;
+}
