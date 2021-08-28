@@ -1,16 +1,53 @@
-a {
+#header .service_area {
   position: relative;
-  left: 60%;
-}
-.naverstart {
+  left: 70%;
   font-size: 12px;
 }
-.wrap_search a {
-  position: relative;
-  color: yellowgreen;
-  font-size: 40px;
-  font-weight: bold;
+#header .wrap_search {
+  margin-top: 20px;
+  margin-left: 200px;
 }
-.wrap_search input {
+#header .wrap_search h1 {
+  position: relative;
+  display: inline;
+}
+#header .wrap_search a {
+  font-size: 50px;
+  text-align: center;
+  color: yellowgreen;
+}
+
+#header .wrap_search form {
   position: absolute;
+  display: inline;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#header .wrap_search .search_bar {
+  width: 600px;
+  height: 50px;
+  border: 3px solid yellowgreen;
+}
+
+#header .content_nav {
+  margin-top: 60px;
+  margin-left: 200px;
+}
+#header .content_nav ul li {
+  margin-left: 2px;
+  display: inline;
+}
+ul {
+  display: inline;
+}
+ul .decoration_nav {
+  position: relative;
+  display: inline;
+}
+
+#header .content_nav .non_decoration_nav a {
+  color: black;
+}
+#header .content_nav .decoration_nav a {
+  color: yellowgreen;
 }
