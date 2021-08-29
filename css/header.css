@@ -30,8 +30,21 @@
 }
 
 #header .content_nav {
-  margin-top: 60px;
-  margin-left: 200px;
+  position: relative;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+#header .content_nav .content_inner {
+  position: relative;
+  width: 1130px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+#header .content_nav .content_inner .decoration_nav,
+#header .content_nav .content_inner .non_decoration_nav {
+  overflow: hidden;
+  position: relative;
+  padding: 11px 270px 11px 0;
 }
 #header .content_nav ul li {
   margin-left: 2px;
@@ -49,6 +62,12 @@ ul .decoration_nav {
   color: black;
 }
 #header .content_nav .decoration_nav a {
+  float: left;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: -0.3px;
   color: yellowgreen;
 }
 #container {
